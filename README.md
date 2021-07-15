@@ -1,16 +1,19 @@
 # The different weekly earnings between black and not black people
-<b>Aim:</b> <br> To ascertain whether valley features (width or length) can be used to get precise forecasts 
-of catchment area.
-
+<b>Aim:</b> <br>To investigate whether race influences weekly earnings
 <br><br>
-<b>Background:</b> <br> There is a vast difference of characteristics between each valley. This project would like 
-to investigate whether valley features (width or length) can be used to get precise 
-forecasts of catchment area. This report primarily based on a fjords dataset, which 
-contains the data (width or length) on fjords from the South Island of New Zealand and 
-British Columbia Canada.
-
+<b>Background:</b> <br> There is different race in the world. This project would like to investigate whether race affects 
+weekly earnings. The dataset ex1029 in the Sleuth3 package of R studio are used in this project for 
+the investigation. The dataset includes the following personal information: weekly earnings in $, 
+region (Midwest, Northeast, South, or West), Metropolitan Status (Whether a person live in a 
+metropolitan area), year of experience, year of education, race (whether a person is Black). There are 
+25437 sample in the dataset, 1978 are black people and 23459 are not.
 <br><br>
-<b>Findings:</b> <br> 1. The best model for the fjords in British Columbia Canada is the investigate models that use a log-log transformation for the length. 
-<br>2. The best model for the fjords in New Zealand is the investigate models that use a log-log transformation for the width
+<b>Findings:</b> <br> The weekly earnings of not black people are 1.264 times more than black people.
 <br><br>
-<b>Discussion:</b> <br> A outlier in the fjords dataset of New Zealand is removed as it’s a influential outlier, but a outlier in the fjords dataset of British Columbia is not removed as it’s not a influential outlier. Log-log transformation is used for both British Columbia and New Zealand. Missing data for New Zealand are not removed as removing the missing data will affect the accuracy of the result.
+<b>Discussion:</b> <br> The difference in log earnings is 0.235 (Table 3), this helps the project to calculate the difference of 
+weekly earning between not black and black people, which not black people are 1.264 times more 
+than black people. 63 years of experience is not usual, so this outlier is removed. Log transformation 
+can help this project. Figure 5 shows in the metropolitan area, with less than seven years of 
+education, black and not black people have the similar weekly earning, with more than seven years 
+of education, not black people have more weekly earning than black people. In the not metropolitan 
+area, with the same education, not black people have more weekly earnings than not black people.
